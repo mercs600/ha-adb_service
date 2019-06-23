@@ -1,0 +1,6 @@
+press:
+  description: Send press key event
+  fields:
+    key:
+      description:  Name of key to send
+      example: Five
