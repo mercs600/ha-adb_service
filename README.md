@@ -47,7 +47,6 @@ key | description
 key | Name of key to send
 
 #### AVAILABLE KEYS
-(there is more, I will add them later)
 
 The naming convetion to send key to device API is: `Key<button>`. You can pass it without Key prefix.
 
@@ -60,11 +59,18 @@ The naming convetion to send key to device API is: `Key<button>`. You can pass i
 - Mute
 - Guide
 - Info
+- Menu
 - Exit
 - Left
 - Right
 - Down
 - Up
+- Play
+- Pause
+- Rewind
+- FForward
+- Record
+- Stop
 - Ok
 - Zero
 - One
@@ -76,5 +82,16 @@ The naming convetion to send key to device API is: `Key<button>`. You can pass i
 - Seven
 - Eight
 - Nine
+- At 
+- Red
+- Green
+- Yellow
+- Blue
+- OPTS
+- Setup
+- Lang
+- Mode
+- RecList
+- TVRadio
 
 To press channel 11 You have call the service twice with key One
