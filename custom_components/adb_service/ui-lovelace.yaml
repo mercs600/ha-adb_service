@@ -1,0 +1,203 @@
+## Please notice that is not fully working ui-lovelace file. You should copy/paste this snippet to your ui-lovelace file. 
+- cards:
+  - cards:
+      - color_type: icon
+        icon: 'mdi:power-standby'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+        type: 'custom:button-card'
+      - color_type: icon
+        icon: 'mdi:volume-plus'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: VolumeUp
+        type: 'custom:button-card'
+      - color_type: icon
+        icon: 'mdi:volume-minus'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: VolumeDown
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - color_type: icon
+        icon: 'mdi:information-variant'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+              key: Info
+        type: 'custom:button-card'
+      - color_type: icon
+        icon: 'mdi:arrow-up-bold-box'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: Up
+        type: 'custom:button-card'
+      - color_type: icon
+        icon: 'mdi:plus-box-outline'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: ProgramUp
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - color_type: icon
+        icon: 'mdi:arrow-left-bold-box'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: Left
+        type: 'custom:button-card'
+      - color_type: icon
+        name: OK
+        aspect_ratio: 2/1
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: Ok
+        type: 'custom:button-card'
+      - color_type: icon
+        icon: 'mdi:arrow-right-bold-box'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: Right
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - color_type: icon
+        icon: 'mdi:keyboard-return'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: Back
+        type: 'custom:button-card'
+      - color_type: icon
+        icon: 'mdi:arrow-down-bold-box'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: Down
+        type: 'custom:button-card'
+      - color_type: icon
+        icon: 'mdi:minus-box-outline'
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: ProgramDown
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - color_type: icon
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: One
+        icon: 'mdi:numeric-1-box-outline'
+        type: 'custom:button-card'
+      - color_type: icon
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: Two
+        icon: 'mdi:numeric-2-box-outline'
+        type: 'custom:button-card'
+      - color_type: icon
+        tap_action:
+          action: call-service
+          service: adb_service.press
+          service_data:
+            key: Three
+        icon: 'mdi:numeric-3-box-outline'
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+    - color_type: icon
+      tap_action:
+        action: call-service
+        service: adb_service.press
+        service_data:
+          key: Four
+      icon: 'mdi:numeric-4-box-outline'
+      type: 'custom:button-card'
+    - color_type: icon
+      tap_action:
+        action: call-service
+        service: adb_service.press
+        service_data:
+          key: Five
+      icon: 'mdi:numeric-5-box-outline'
+      type: 'custom:button-card'
+    - color_type: icon
+      tap_action:
+        action: call-service
+        service: adb_service.press
+        service_data:
+          key: Six
+      icon: 'mdi:numeric-6-box-outline'
+      type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+    - color_type: icon
+      tap_action:
+        action: call-service
+        service: adb_service.press
+        service_data:
+          key: Seven
+      icon: 'mdi:numeric-7-box-outline'
+      type: 'custom:button-card'
+    - color_type: icon
+      tap_action:
+        action: call-service
+        service: adb_service.press
+        service_data:
+          key: Eight
+      icon: 'mdi:numeric-8-box-outline'
+      type: 'custom:button-card'
+    - color_type: icon
+      tap_action:
+        action: call-service
+        service: adb_service.press
+        service_data:
+          key: Nine
+      icon: 'mdi:numeric-9-box-outline'
+      type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+    - type: "custom:button-card"
+      color_type: blank-card
+    - color_type: icon
+      tap_action:
+        action: call-service
+        service: adb_service.press
+        service_data:
+          key: Zero
+      icon: 'mdi:numeric-0-box-outline'
+      type: 'custom:button-card'
+    - type: "custom:button-card"
+      color_type: blank-card
+    type: horizontal-stack
+type: vertical-stack
+
+## You should remember about it:
+resources:
+  - type: module
+    url: /customcards/github/custom-cards/button-card.js?track=true

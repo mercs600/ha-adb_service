@@ -95,3 +95,25 @@ The naming convetion to send key to device API is: `Key<button>`. You can pass i
 - TVRadio
 
 To press channel 11 You have call the service twice with key One
+
+## Known devices
+
+List of devices we know and tested. If your defice works with this solution let me know. 
+
+- NCP4740SF - [WIFI PREMIUMBOX+](https://ncplus.pl/oferta/dekodery/wifi-premiumbox)
+- ITI3740SX - [MEDIABOX+](https://ncplus.pl/Oferta/Dekodery/mediabox-hd-pvr-500-gb)
+
+## UI CARD
+
+I created simple interface to easier interact. You can use it or create something nicer ;-) Don't forget to share with us. 
+
+### Requirements 
+- [Lovelace UI](https://www.home-assistant.io/lovelace/)
+- [Custom button card](https://github.com/custom-cards/button-card)
+
+## Screen
+![Logo](https://i.imgur.com/gD3IYMj.png)
+
+## Config 
+
+[Just look on that file](/custom_components/adb_service/ui-lovelace.yaml)
