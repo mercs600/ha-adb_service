@@ -1,5 +1,4 @@
 # ADB SERVICE
-*** please notice that is still in the development phase
 
 ADB Service allows you to interact with your decoder device. I tested it with ADB NCP4740SF - [WIFI PREMIUMBOX+](https://ncplus.pl/oferta/dekodery/wifi-premiumbox). If you have different type of ADB decoder, you can check if my solution works to you and let me know.
 
@@ -102,6 +101,8 @@ List of devices we know and tested. If your defice works with this solution let 
 
 - NCP4740SF - [WIFI PREMIUMBOX+](https://ncplus.pl/oferta/dekodery/wifi-premiumbox)
 - ITI3740SX - [MEDIABOX+](https://ncplus.pl/Oferta/Dekodery/mediabox-hd-pvr-500-gb)
+- USW4001NCP - [UltraBox+](https://pl.canalplus.com/dekodery/4k-ultrabox)
+- ITI5720SX - [Turbobox+](https://pl.canalplus.com/dekodery/turbobox)
 
 ## UI CARD
 
