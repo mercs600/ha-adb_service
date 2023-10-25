@@ -1,3 +1,6 @@
+# 🚧 NOTE
+I no longer have the ADB decoder, so I can't continue working on this solution. Feel free to fork the repository or edit the code directly after installing this plugin.
+
 # ADB SERVICE
 
 ADB Service allows you to interact with your decoder device. I tested it with ADB NCP4740SF - [WIFI PREMIUMBOX+](https://ncplus.pl/oferta/dekodery/wifi-premiumbox). If you have different type of ADB decoder, you can check if my solution works to you and let me know.
